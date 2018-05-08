@@ -1,0 +1,20 @@
+.schedule{
+    list-style: none;
+    display: inline-block;
+    width: 245px;
+  }
+  
+  .schedule li{
+    margin-bottom: 7.4px;
+    font-weight: 200;
+    font-size: 16px;
+  }
+  
+  .schedule :nth-child(3n){
+    font-size: 12px;
+    margin-bottom: 13px;
+  }
+
+  hr{
+    border-width: 1px;
+  }  

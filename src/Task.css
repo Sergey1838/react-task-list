@@ -1,0 +1,11 @@
+.task{
+    position: absolute;
+    left: 45px;
+    width: 198px;
+    background-color: #E2ECF5;
+    border-left: 2px solid #6E9ECF;
+    font-size: 14px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
