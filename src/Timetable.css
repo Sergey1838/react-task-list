@@ -1,20 +1,24 @@
 .schedule{
-    list-style: none;
-    display: inline-block;
-    width: 245px;
-  }
-  
-  .schedule li{
-    margin-bottom: 7.4px;
-    font-weight: 200;
-    font-size: 16px;
-  }
-  
-  .schedule :nth-child(3n){
-    font-size: 12px;
-    margin-bottom: 13px;
-  }
+  list-style: none;
+  display: inline-block;
+  width: 245px;
+}
 
-  hr{
-    border-width: 1px;
-  }  
+.schedule li{
+height: 60px;
+}
+
+.schedule li hr{
+border-width: 1px;
+}
+
+.schedule li div{
+font-weight: 200;
+font-size: 16px;
+margin-bottom: 6.4px;
+}
+
+.schedule li :nth-child(3n){
+font-size: 12px;
+margin-bottom: 14px;
+}
